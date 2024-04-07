@@ -1,0 +1,30 @@
+//GUI INTRO 
+import javax.swing.JOptionPane;
+
+public class Main{
+    public static void main(String[] args){
+
+String name = JOptionPane.showInputDialog("Enter your name");
+//the above code works for when you want to input a string variable
+JOptionPane.showMessageDialog(null, "Hello "+name);
+//this is the code for the message that would be shown after you input your variable
+int length = Integer.parseInt(JOptionPane.showInputDialog("Enter the length"));
+//this code works for when you want to input an integer variable
+JOptionPane.showMessageDialog(null, "Your length is "+length);
+
+
+int breadth = Integer.parseInt(JOptionPane.showInputDialog("Enter the breadth"));
+JOptionPane.showMessageDialog(null, "\"Your breadth is\" " +breadth ) ;
+
+
+
+
+String area = JOptionPane.showInputDialog("Should I print area? ");
+JOptionPane.showMessageDialog(null, "Your area is "+length*breadth);
+
+double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+//this code works for when you want to input a double variable
+JOptionPane.showMessageDialog(null, "You are "+height+" feet tall");
+    }
+}
+
