@@ -1,0 +1,28 @@
+//How to accept user input
+import java.util.Scanner;
+public class duke {
+
+	public static void main(String[] args) {
+	
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.println("what is your name?");
+	String name = scanner.nextLine();
+	System.out.println("How old are you?");
+	int age = scanner.nextInt();
+	int next5ages = 5+age;
+	scanner.nextLine();
+	System.out.println("When is your birthday? ");
+	String birthday = scanner.nextLine();
+	System.out.println("What is your favourite food? ");
+	String food = scanner.nextLine();
+	
+
+	System.out.println("Hello i'm "+name);
+	System.out.println("i'm "+age+" years old");
+System.out.println("my next 5 ages would be "+next5ages);
+	System.out.println("My birthday is "+birthday);
+	System.out.println("My favourite food is " +food);
+
+	}
+}
