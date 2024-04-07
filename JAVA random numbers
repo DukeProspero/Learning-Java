@@ -1,0 +1,17 @@
+// JAVA random numbers
+import java.util.Random;
+// import random class bond
+
+public class duke{
+	public static void main(String[] args) {
+
+
+Random random = new Random();
+		//int x = random.nextInt(6)+1;
+		//double y = random.nextDouble(3.5);
+		boolean z = random.nextBoolean();
+		System.out.println(z);
+
+	}
+
+}
