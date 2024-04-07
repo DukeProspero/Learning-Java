@@ -1,0 +1,20 @@
+//JAVA math class
+// HOW TO CALCULATE THE HYPOTENUSE OF A TRIANGLE
+import java.util.Scanner;
+public class duke{
+	public static void main(String[] args){
+
+
+Scanner pro = new Scanner(System.in);
+
+System.out.print("Enter side x: ");
+double x = pro.nextDouble();
+
+System.out.print("Enter side y: ");
+double y = pro.nextDouble();
+double z=Math.sqrt((x*x)+(y*y));
+
+System.out.println("The hypotenuse is: " +z);
+pro.close();
+	}
+}
